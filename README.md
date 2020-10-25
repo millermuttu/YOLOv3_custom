@@ -7,6 +7,8 @@
 ## Steps
 
 We have added a small dataset for PPE detection dataset in the folder called customdataset.
+Download the full dataset from [Google drive](https://drive.google.com/drive/folders/1BuZBogl7zHGSwOduQatf740bhxty5Sb2?usp=sharing)
+This downloadable dataset will have 3000+ images and labels labeled using annotation tool given in the repo
 
 Full credit goes to [this](https://github.com/ultralytics/yolov3), and if you are looking for much more detailed explainiation and features, please refer to the original [source](https://github.com/ultralytics/yolov3). 
 
@@ -20,7 +22,7 @@ You'll need to download the weights from the original source.
 `python train.py --data data/smalcoco/smalcoco.data --batch 10 --cache --epochs 25 --nosave`
 
 For custom dataset:
-1. use the annotation tool given in the repo, for more details read here()
+1. use the annotation tool given in the repo, for more details read [here](https://github.com/millermuttu/YOLOv3_custom/tree/main/annotation_tool)
 2. Follow the installation steps as mentioned in the repo. 
 3. For the assignment, download 500 images of your unique object. 
 4. Annotate the images using the Annotation tool. 
@@ -42,8 +44,8 @@ data
 5. As you can see above you need to create **custom.data** file. For 4 class example, your file will look like this:
 ```
   classes=4
-  train=data/customdata/custom.txt
-  test=data/customdata/custom.txt 
+  train=data/customdata/train.txt
+  test=data/customdata/test.txt 
   names=data/customdata/custom.names
 ```
 6. As you it a poor idea to keep test and train data same, but the point of this repo is to get you up and running with YoloV3 asap. You'll probably do a mistake in writing to custom.txt file. This is how our file looks like (please note the .s and /s):
