@@ -3,6 +3,7 @@
 ## Check this youtube link for video sample result [Youtube link](https://youtu.be/Grr8teUPwnk)
 
 # Training the custom PPE dataset on YOLOv3
+![image](https://github.com/millermuttu/TSAI-EVA5/blob/master/week13/YOLOv3_custom/output/Atest_Moment.jpg)
 
 ## Steps
 
@@ -75,5 +76,4 @@ walle
 **Results**
 After training for 30 Epochs, results look awesome!
 
-![image](https://github.com/millermuttu/TSAI-EVA5/blob/master/week13/YOLOv3_custom/output/Atest_Moment.jpg)
 ![image](https://github.com/millermuttu/TSAI-EVA5/blob/master/week13/YOLOv3_custom/output/Atest_Moment2.jpg)
